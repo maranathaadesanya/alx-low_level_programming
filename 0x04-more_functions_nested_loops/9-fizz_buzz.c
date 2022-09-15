@@ -16,7 +16,7 @@ int main(void)
 		{
 			printf("FizzBuzz ");
 		}
-		else if (1 % 5 == 0)
+		else if (i % 5 == 0)
 		{
 			printf("Buzz ");
 		}
