@@ -9,7 +9,7 @@
  * Return: the new node, NULL if fails
  */
 
-ash_node_t *hash_table_add(const char *key, char *new_value)
+hash_node_t *hash_table_add(const char *key, char *new_value)
 {
 	hash_node_t *new_node = NULL;
 
